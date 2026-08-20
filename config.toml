@@ -68,3 +68,8 @@ l = [
   ":set mouse false",
   ":set mouse true",
 ]
+
+[keys.normal.g]
+G = [
+  ":sh git open -f %{buffer_name}",
+]
