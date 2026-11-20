@@ -52,6 +52,8 @@ supersede-menu = true
 cursor-line = "warning"
 
 [keys.normal.space]
+i = ":toggle-option file-picker.git-ignore"
+
 - = [
   ":sh rm -f /tmp/unique-ca1ea106",
   ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-ca1ea106',
